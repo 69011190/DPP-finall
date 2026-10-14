@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basics</title> <!--[span_0](start_span)[span_0](end_span) -->
+<style>
+body {
+background-color: pink; /*[span_1](start_span)[span_1](end_span) */
+margin: 0;
+padding: 20px;
+font-family: Arial, sans-serif;
+}
+
+h1 {
+color: white; 
+text-align: center; 
+font-size: 2.5rem;
+}
+
+.shop-container {
+display: flex; 
+justify-content: center;
+gap: 40px;
+margin: 40px 0;
+}
+
+.shop-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.shop-item img {
+width: 250px;
+height: 180px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.shop-item a {
+margin-top: 10px;
+color: #000;
+text-decoration: underline;
+font-weight: bold;
+}
+
+hr {
+border: 0;
+height: 1px;
+background: #000;
+width: 100%; 
+margin: 30px 0;
+}
+
+.footer {
+text-align: right; 
+font-family: monospace; 
+font-style: italic; 
+}
+</style>
+</head>
+<body>
+
+<h1>★ Online Shops ★</h1> 
+
+<div class="shop-container"> 
+<div class="shop-item">
+<img src="https://picsum.photos/id/21/250/180" alt="Online Shop 1">
+<a href="https://www.amazon.com" target="_blank">Shop 1 (Amazon)</a> 
+</div>
+<div class="shop-item">
+<img src="https://picsum.photos/id/26/250/180" alt="Online Shop 2">
+<a href="https://www.ebay.com" target="_blank">Shop 2 (eBay)</a> 
+</div>
+</div>
+
+<hr> 
+
+<div class="footer">
+© wil 2026 
+
+</body>
+</html>
